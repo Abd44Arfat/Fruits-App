@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875096058378",
+    "project_id": "fruit-hup-7a18d",
+    "storage_bucket": "fruit-hup-7a18d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875096058378:android:349a6e85db5814237a4df3",
+        "android_client_info": {
+          "package_name": "com.example.appname"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB08HAw5M8Wdy7p7i6V9bLoSZwxG_oqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875096058378:android:b38c0c582528b1c47a4df3",
+        "android_client_info": {
+          "package_name": "com.example.fruit_hup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB08HAw5M8Wdy7p7i6V9bLoSZwxG_oqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
