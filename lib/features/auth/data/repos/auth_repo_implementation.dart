@@ -99,6 +99,30 @@ return left(ServerFailure(e.toString()));
     }
   }
 
+  @override
+  Future<Either<Failure, UserEntity>> signinUserWithApple() async {
+    User? user;
+    try {
+     var user = await firebaseAuthService.signInWithApple();
+
+
+
+      return right(UserModel.fromFirebaseUser(user));
+    } catch (e) {
+  
+      log(
+        'Exception in AuthRepoImpl.createUserWithEmailAndPassword: ${e.toString()}',
+      );
+      return left(
+        ServerFailure(
+          'حدث خطأ ما. الرجاء المحاولة مرة اخرى.',
+        ),
+      );
+    }
+  }
+  
+
+
   
 }
 
