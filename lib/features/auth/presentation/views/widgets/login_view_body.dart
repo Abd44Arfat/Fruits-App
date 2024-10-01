@@ -84,7 +84,7 @@ context.read<SignInCubit>().signinWithGoogle();
         const SizedBox(height: 16,),
              SocialLoginButton(image: Assets.imagesSocialIcons1, title: 'تسجيل بواسطة أبل', onPressed: () { 
 
-          context.read<SignInCubit>().signinWithApple();
+
               },),
              const SizedBox(height: 16,),
          SocialLoginButton(image: Assets.imagesSocialIcons, title: 'تسجيل بواسطة فيسبوك', onPressed: () { 
