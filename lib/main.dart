@@ -8,6 +8,7 @@ import 'package:fruit_hup/core/services/bloc_observer.dart';
 import 'package:fruit_hup/core/services/get_it_service.dart';
 import 'package:fruit_hup/core/services/shared_prefrences_singlton.dart';
 import 'package:fruit_hup/core/utils/app_colors.dart';
+import 'package:fruit_hup/features/home/presentation/views/home_view.dart';
 import 'package:fruit_hup/features/splash/presentation/views/splash_view.dart';
 import 'package:fruit_hup/firebase_options.dart';
 import 'package:fruit_hup/generated/l10n.dart';
@@ -45,7 +46,7 @@ class FruitHup extends StatelessWidget {
 
 
   onGenerateRoute: onGenerateRoute,
-  initialRoute: SplashView.routeName,
+  initialRoute: HomeView.routeName,
   debugShowCheckedModeBanner: false,
 );
   }
